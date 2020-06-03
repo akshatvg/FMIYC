@@ -27,6 +27,7 @@ def upload_file():
     filename = ""
     if request.method == 'POST':
         # check if the post request has the file part
+        
         if 'file' not in request.files:
             flash('No file part')
             return redirect(request.url)
@@ -124,9 +125,9 @@ def process_file():
     filename = request.args.get('filename')
     videoPath = '/'.join([dirname, filename])
 
-    audioPath = videoProcessing.getAudio(videoPath)
-    audioText = videoProcessing.getAudioText(audioPath)
-    respText = revSearch.reverseSearchText(audioText)
+    # audioPath = videoProcessing.getAudio(videoPath)
+    # audioText = videoProcessing.getAudioText(audioPath)
+    # respText = revSearch.reverseSearchText(audioText)
 
     # screenText = getTextFromFrame(screenPath)
     # respText2 = reverseSearchText(screenText)
@@ -154,12 +155,12 @@ def process_file():
     for guess in guess2:
         movieCounter[guess[0]] += guess[1]
 
-    for movie in movieCounter.keys():
-        movieCounter[movie] += respText.count(movie)
+    # for movie in movieCounter.keys():
+    #     movieCounter[movie] += respText.count(movie)
 
     bruteCount = Counter()
-    if len(movieCounter.keys()) == 0:
-        bruteCount = imdbFuncs.bruteForce(respText)
+    # if len(movieCounter.keys()) == 0:
+    #     bruteCount = imdbFuncs.bruteForce(respText)
 
     if len(bruteCount) > 0:
         movieCounter = bruteCount
@@ -236,4 +237,3 @@ def process_file():
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=3000, debug=True)
-
