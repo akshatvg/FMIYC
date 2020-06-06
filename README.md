@@ -1,22 +1,20 @@
 # Find Me If You Can
 
-#### Searching that catchy movie or tv scene, now easier.
-
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/FMIYC?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/FMIYC?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/FMIYC?style=social)](https://github.com/akshatvg/FMIYC/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/FMIYC?style=social&logo=git)](https://github.com/akshatvg/FMIYC/network)
 
-This repository is made by Akshat Gupta to try to replicate an already existing website to improve his frontend web development skills.
+Searching that catchy movie or tv scene, now easier.
 
 <h1 align="center">
 Find Me If You Can
 </h1>
 
-![Generic badge](https://img.shields.io/badge/timemator-clone-orange) 
+![Generic badge](https://img.shields.io/badge/Find_A-Clip-orange) 
 
 ## Screenshots
 <p align="center">
-<img src="https://github.com/akshatvg/FMIYC/blob/master/pics/home.png" width="50%x" alt="Home Page"/>
-<img src="https://github.com/akshatvg/FMIYC/blob/master/pics/preview-video.png" width="50%x" alt="Preview Video"/>
-<img src="https://github.com/akshatvg/FMIYC/blob/master/pics/guess.png" width="50%x" alt="Final Guess"/>
+<img src="https://github.com/akshatvg/FMIYC/blob/master/pics/home.png" width="50%" alt="Home Page"/>
+<img src="https://github.com/akshatvg/FMIYC/blob/master/pics/preview-video.png" width="50%" alt="Preview Video"/>
+<img src="https://github.com/akshatvg/FMIYC/blob/master/pics/guess.png" width="50%" alt="Final Guess"/>
 </p>
 
 ## Requirements
